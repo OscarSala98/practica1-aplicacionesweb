@@ -1,0 +1,32 @@
+*{
+   
+}
+body{
+    display:flex;
+    background-color: gray;
+     height: 100;
+}
+#arriba{
+    display:flex;
+}
+#verde{
+    justify-content: flex-start;
+    background-color: green;
+}
+#azul{
+    flex:1;
+    background-color: blue;
+    justify-content: flex-start;
+}
+#rojo{
+    flex:2;
+    background-color: red;
+}
+.amarillo{
+    align-items: center;
+    background-color: yellow;
+}
+#morado{
+    justify-content: flex-end;
+    background-color: blueviolet;
+}

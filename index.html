@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ranking de sitios turísticos</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1>Ranking de sitios turísticos</h1>
+
+    <!-- Tarjeta 1 -->
+    <div class="tarjeta">
+        <img src="https://img.icons8.com/ios-filled/100/mountain.png" alt="Montaña" class="icono">
+        <div class="contenido">
+            <div class="cabecera">
+                <h2>El Panecillo</h2>
+                <span class="likes">1000 Likes</span>
+            </div>
+            <h4>Quito, Ecuador</h4>
+            <p><strong>El Panecillo</strong> es una elevación natural de 3.000 metros sobre el nivel del mar,
+                (200 metros más alto que el promedio de la ciudad de Quito)</p>
+            <div class="boton-like"><button>Like</button></div>
+        </div>
+    </div>
+
+    <!-- Tarjeta 2 -->
+    <div class="tarjeta">
+        <img src="https://img.icons8.com/ios-filled/100/globe.png" alt="Globo" class="icono">
+        <div class="contenido">
+            <div class="cabecera">
+                <h2>Mitad del Mundo</h2>
+                <span class="likes">980 Likes</span>
+            </div>
+            <h4>Quito, Ecuador</h4>
+            <p><strong>La Ciudad Mitad del Mundo</strong> es un complejo turístico y cultural propiedad de la prefectura
+                de la provincia de Pichincha. Está situado en la parroquia</p>
+            <div class="boton-like"><button>Like</button></div>
+        </div>
+    </div>
+
+    <!-- Sección de íconos de destino -->
+    <div class="destinos">
+        <div class="destino">
+            <p>Destino preferido:</p>
+            <img src="https://img.icons8.com/ios-filled/100/mountain.png" alt="Montaña" class="icono">
+        </div>
+        <div class="destino">
+            <p>Tu destino más cercano:</p>
+            <img src="https://img.icons8.com/ios-filled/100/globe.png" alt="Globo" class="icono">
+        </div>
+        <div class="destino">
+            <p>Destino más económico:</p>
+            <img src="https://img.icons8.com/ios-filled/100/mountain.png" alt="Montaña" class="icono">
+        </div>
+    </div>
+
+    <!-- Formulario -->
+    <div class="formulario">
+        <h3>¡Quiero viajar a este sitio!</h3>
+        <form>
+            <div class="fila">
+                <label for="sitio">Sitio turístico:</label>
+                <select id="sitio" name="sitio">
+                    <option value="panecillo">El Panecillo</option>
+                    <option value="mitad">Mitad del Mundo</option>
+                </select>
+            </div>
+
+            <div class="fila">
+                <label for="fecha1">Fecha inicial:</label>
+                <input type="date" id="fecha1" name="fecha1" />
+
+                <label for="fecha2">Fecha inicial:</label>
+                <input type="date" id="fecha2" name="fecha2" />
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>
