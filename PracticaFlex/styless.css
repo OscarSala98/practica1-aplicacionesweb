@@ -1,32 +1,65 @@
-*{
-   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
-    display:flex;
+
+body {
+    display: flex;
+    flex-direction: column;
     background-color: gray;
-     height: 100;
+    height: 100vh;
 }
-#arriba{
-    display:flex;
+
+#arriba {
+    display: flex;
 }
-#verde{
-    justify-content: flex-start;
+
+#verde {
     background-color: green;
+    width: 100%;
+    height: 100px;
+    margin: 2%;
 }
-#azul{
-    flex:1;
+
+#abajo {
+    display: flex;
+    flex: 1;
+}
+
+#azul {
     background-color: blue;
-    justify-content: flex-start;
+    width: 100px;
+    margin: 2%;
+    height: 70%;
 }
-#rojo{
-    flex:2;
+
+#rojo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     background-color: red;
+    padding: 10px;
+    
+    margin: 2%;
 }
-.amarillo{
-    align-items: center;
+
+.fila-amarillos {
+    display: flex;
+    flex: 1;
+}
+
+.amarillo {
     background-color: yellow;
+    flex: 1;
+    
+    align-items: center;
+    margin: 2%;
+    justify-content:center;
 }
-#morado{
-    justify-content: flex-end;
+
+#morado {
+    flex: 1;
     background-color: blueviolet;
+    margin: 2%;
 }
