@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Flexbox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="principal">
+        <h1>Ranking de Sitios Turísticos</h1>
+        <div class="cont_amarillo">
+            <div class="imagen">
+                <img src="Imagenes/Imagen1.jpg" alt="El Panecillo">
+            </div>
+            <div class="texto">
+                <h1>El Panecillo</h1>
+                <h2>Ubicación: Quito, Ecuador</h2>
+                <p>El Panecillo es una colina que se eleva a 2000
+                    metros sobre el nivel del mar, famosa por su
+                    estatua de la Virgen de Quito y su impresionante
+                    vista panorámica de la ciudad.</p>
+                <button>Like</button>
+            </div>
+            <div class="likes">
+                Me gusta: 100
+            </div>
+        </div>
+        <div class="cont_amarillo">
+            <div class="imagen">
+                <img src="Imagenes/Imagen2.jpg" alt="El Panecillo">
+            </div>
+            <div class="texto">
+                <h1>El Panecillo</h1>
+                <h2>Ubicación: Quito, Ecuador</h2>
+                <p>El Panecillo es una colina que se eleva a 2000
+                    metros sobre el nivel del mar, famosa por su
+                    estatua de la Virgen de Quito y su impresionante
+                    vista panorámica de la ciudad.</p>
+                <button>Like</button>
+            </div>
+            <div class="likes">
+                Me gusta: 100
+            </div>
+        </div>
+
+        <div class="cont_destinos">
+            <div class="mini">
+            <h3>Destino Preferido:</h3>
+            <div class="imagen">
+                <img src="Imagenes/Imagen1.jpg" alt="El Panecillo">
+            </div>
+            </div>
+            <div class="mini">
+            <h3>Tu destino más cercano:</h3>
+            <div class="imagen">
+                <img src="Imagenes/Imagen2.jpg" alt="El Panecillo">
+            </div>
+            </div>
+            <div class="mini">
+            <div>
+                <h3>Tu destino más económico:</h3>
+            </div>
+
+            <div class="imagen">
+                <img src="Imagenes/Imagen1.jpg" alt="El Panecillo">
+            </div>
+            </div>
+        </div>
+
+        <div class="cont_verde">
+            <div class="formulario-viaje">
+                <h2>¡Quiero viajar a este sitio!</h2>
+                <form>
+                    <div class="campo-formulario">
+                        <label for="sitio">Sitio turístico:</label>
+                        <select id="sitio" name="sitio">
+                            <option value="panecillo">El Panecillo</option>
+                            <option value="mitad-del-mundo">Mitad del Mundo</option>
+                            <option value="quilotoa">Laguna Quilotoa</option>
+                        </select>
+                    </div>
+                    <div class="campo-formulario">
+                        <label for="fecha-inicial">Fecha inicial:</label>
+                        <input type="date" id="fecha-inicial" name="fecha-inicial">
+                    </div>
+                    <div class="campo-formulario">
+                        <label for="fecha-final">Fecha final:</label>
+                        <input type="date" id="fecha-final" name="fecha-final">
+                    </div>
+                    <div class="campo-formulario">
+                        <button type="submit" class="btn-enviar">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+  </div>  </div>
+</body>
+
+</html>

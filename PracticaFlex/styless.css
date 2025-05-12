@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: gray;
-    height: 100vh;
+    height: 100%;
 }
 
 #arriba {
